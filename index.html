@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خلاصه هماتولوژی: فصل ۱۰ (اختلالات لنفوسیت‌ها)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+            line-height: 1.8;
+        }
+        .gradient-header {
+            background: linear-gradient(135deg, #be123c 0%, #881337 100%);
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            border: 1px solid #e5e7eb;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .exam-tip {
+            background-color: #fff1f2;
+            border-right: 4px solid #e11d48;
+            color: #9f1239;
+        }
+        .treatment-box {
+            background-color: #ecfdf5;
+            border-right: 4px solid #10b981;
+            color: #065f46;
+        }
+        .diagnosis-box {
+            background-color: #eff6ff;
+            border-right: 4px solid #3b82f6;
+            color: #1e40af;
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: #111827;
+            font-weight: 800;
+            font-size: 1.25rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            right: 0;
+            width: 40px;
+            height: 4px;
+            background-color: #be123c;
+            border-radius: 2px;
+        }
+        .english-term {
+            font-family: sans-serif;
+            direction: ltr;
+            display: inline-block;
+            font-weight: 600;
+            background-color: #f3f4f6;
+            padding: 0 4px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #374151;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8; 
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: 12px;
+            text-align: right;
+        }
+        th {
+            background-color: #f9fafb;
+            font-weight: 700;
+            color: #111827;
+        }
+    </style>
+</head>
+<body class="pb-12">
+
+    <!-- Header -->
+    <header class="gradient-header text-white p-6 shadow-lg sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl md:text-3xl font-bold">فصل ۱۰: اختلالات لنفوسیت‌ها</h1>
+                <p class="text-rose-100 text-sm mt-2 opacity-90">بر اساس رفرنس هماتولوژی (صفحات ۱۷۶ تا ۱۹۹)</p>
+            </div>
+            <div class="hidden md:block text-xs bg-white/20 px-3 py-1 rounded-full backdrop-blur-sm">
+                خلاصه جامع درسنامه
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-4 space-y-8 mt-4">
+
+        <!-- Navigation Jump Links -->
+        <nav class="flex gap-3 overflow-x-auto pb-4 text-sm no-scrollbar px-1">
+            <a href="#etiology" class="bg-white px-4 py-2 rounded-full shadow hover:bg-rose-50 text-rose-700 whitespace-nowrap transition-colors border border-rose-100">اتیولوژی لنفوم</a>
+            <a href="#staging" class="bg-white px-4 py-2 rounded-full shadow hover:bg-rose-50 text-rose-700 whitespace-nowrap transition-colors border border-rose-100">Staging</a>
+            <a href="#follicular" class="bg-white px-4 py-2 rounded-full shadow hover:bg-rose-50 text-rose-700 whitespace-nowrap transition-colors border border-rose-100">فولیکولر & MALT</a>
+            <a href="#dlbcl" class="bg-white px-4 py-2 rounded-full shadow hover:bg-rose-50 text-rose-700 whitespace-nowrap transition-colors border border-rose-100">DLBCL & Burkitt</a>
+            <a href="#hodgkin" class="bg-white px-4 py-2 rounded-full shadow hover:bg-rose-50 text-rose-700 whitespace-nowrap transition-colors border border-rose-100">هوچکین</a>
+            <a href="#cll" class="bg-white px-4 py-2 rounded-full shadow hover:bg-rose-50 text-rose-700 whitespace-nowrap transition-colors border border-rose-100">CLL</a>
+            <a href="#plasma" class="bg-white px-4 py-2 rounded-full shadow hover:bg-rose-50 text-rose-700 whitespace-nowrap transition-colors border border-rose-100">پلاسما سل</a>
+        </nav>
+
+        <!-- Section 1: Etiology -->
+        <section id="etiology" class="card p-6">
+            <h2 class="section-title">۱. اتیولوژی لنفوم نان‌هوچکین (نقش ویروس‌ها)</h2>
+            <div class="grid md:grid-cols-3 gap-4 mt-4">
+                <div class="bg-gray-50 p-4 rounded-lg border-t-4 border-indigo-500">
+                    <h3 class="font-bold text-indigo-700 mb-2 flex items-center justify-between">
+                        EBV
+                        <span class="text-xs bg-indigo-100 px-2 py-1 rounded">ویروس اپشتین‌بار</span>
+                    </h3>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>لنفوم بورکیت (نوع آندمیک آفریقایی)</li>
+                        <li>لنفوم‌های پس از پیوند عضو</li>
+                        <li>لنفوم‌های مهاجم مرتبط با HIV</li>
+                        <li>لنفوم هوچکین (در ۵۰٪ موارد)</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg border-t-4 border-pink-500">
+                    <h3 class="font-bold text-pink-700 mb-2 flex items-center justify-between">
+                        HTLV-1
+                        <span class="text-xs bg-pink-100 px-2 py-1 rounded">ویروس لنفوتروپیک T</span>
+                    </h3>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>لوسمی/لنفوم سلول T بالغین (Adult T-cell leukemia/lymphoma)</li>
+                        <li class="text-xs text-red-600 mt-2 font-bold">نکته ۱۰۰٪ امتحانی</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg border-t-4 border-teal-500">
+                    <h3 class="font-bold text-teal-700 mb-2 flex items-center justify-between">
+                        HHV-8
+                        <span class="text-xs bg-teal-100 px-2 py-1 rounded">هرپس ویروس ۸</span>
+                    </h3>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li>سارکوم کاپوسی</li>
+                        <li>لنفوم افیوژن اولیه (Primary Effusion Lymphoma) در حفرات بدن</li>
+                        <li>ارتباط قوی با HIV</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-6 pt-4 border-t border-gray-100">
+                <h4 class="font-bold text-gray-800 mb-2">سایر علل لنفادنوپاتی (تشخیص افتراقی)</h4>
+                <div class="grid md:grid-cols-2 gap-4 text-sm">
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li><strong>عفونی:</strong> سندروم منونوکلئوز (EBV, CMV)، بیماری خراش گربه، بروسلوز، توکسوپلاسموز، سل (اسکروفولا).</li>
+                        <li><strong>ایمنولوژیک:</strong> لوپوس (SLE)، آرتریت روماتوئید (RA)، سارکوئیدوز.</li>
+                    </ul>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li><strong>بدخیمی:</strong> متاستاز (ملانوم، سرطان پستان/ریه/کلیه).</li>
+                        <li><strong>دارویی:</strong> فنی‌توئین، آلوپورینول، هیدرالازین.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Staging -->
+        <section id="staging" class="card p-6">
+            <h2 class="section-title">۲. اقدامات تشخیصی و Staging</h2>
+            
+            <div class="mb-6">
+                <div class="exam-tip p-4 rounded-lg mb-4">
+                    <h4 class="font-bold mb-1 flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        نکته حیاتی در مورد LP (پونکسیون کمری)
+                    </h4>
+                    <p class="text-sm">
+                        بررسی سیتولوژی مایع مغزی‌نخاعی (CSF) <strong>فقط</strong> در لنفوم‌های بسیار تهاجمی زیر الزامی است (به دلیل تمایل بالا به درگیری لپتومننژ):
+                        <br>
+                        ۱. لنفوم بورکیت (<span class="english-term">Burkitt</span>)
+                        <br>
+                        ۲. لنفوم لنفوبلاستیک (<span class="english-term">Lymphoblastic</span>)
+                        <br>
+                        ۳. برخی انواع مهاجم DLBCL با درگیری بیضه یا سینوس‌ها.
+                    </p>
+                </div>
+            </div>
+
+            <h3 class="font-bold text-gray-800 mb-3">سیستم مرحله‌بندی Ann Arbor</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr>
+                            <th class="w-1/6">Stage</th>
+                            <th>توصیف درگیری</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-bold text-center bg-gray-50">I</td>
+                            <td>یک غده لنفاوی یا یک گروه لنفاوی مجاور هم (یا یک محل خارج گرهی منفرد بدون درگیری گرهی).</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold text-center bg-gray-50">II</td>
+                            <td>دو یا چند گروه لنفاوی در <strong>یک سمت دیافراگم</strong>.</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold text-center bg-gray-50">III</td>
+                            <td>درگیری غدد لنفاوی در <strong>هر دو طرف دیافراگم</strong> (مثلاً گردن + اینگوینال) یا درگیری طحال.</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold text-center bg-gray-50">IV</td>
+                            <td>درگیری منتشر خارج لنفاوی (مثلاً مغز استخوان، کبد، پارانشیم ریه) در نواحی غیرمجاور.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-3 text-xs text-gray-500">
+                <strong>پسوند A:</strong> بدون علائم سیستمیک. | <strong>پسوند B:</strong> وجود تب، تعریق شبانه، کاهش وزن > ۱۰٪. | <strong>Bulky:</strong> توده حجیم (>۱۰cm).
+            </div>
+        </section>
+
+        <!-- Section 3: Indolent Lymphomas -->
+        <section id="follicular" class="card p-6 border-r-4 border-yellow-400">
+            <h2 class="section-title text-yellow-800">۳. لنفوم‌های ایندولنت (کم‌خطر)</h2>
+            
+            <!-- Follicular Lymphoma -->
+            <div class="mb-8">
+                <h3 class="text-lg font-bold text-gray-800 mb-2 flex items-center">
+                    <span class="w-2 h-2 bg-yellow-500 rounded-full ml-2"></span>
+                    لنفوم فولیکولر (Follicular Lymphoma)
+                </h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="space-y-3">
+                        <p class="text-sm text-gray-600"><strong>اپیدمیولوژی:</strong> شایع‌ترین لنفوم با رشد آهسته (۲۰٪ لنفوم‌ها). اغلب تشخیص در مراحل پیشرفته.</p>
+                        <div class="diagnosis-box p-3 rounded text-sm">
+                            <strong>مشخصات پاتولوژیک و ژنتیک:</strong>
+                            <ul class="list-disc list-inside mt-1">
+                                <li>بیان مارکرهای B-cell (CD19, CD20, CD10).</li>
+                                <li>ترانسلوکاسیون <span class="english-term">t(14;18)</span> (ویژگی اصلی).</li>
+                                <li>افزایش بیان پروتئین <span class="english-term">BCL-2</span> (جلوگیری از آپوپتوز).</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="treatment-box p-3 rounded text-sm h-full">
+                            <strong>استراتژی درمان:</strong>
+                            <ul class="list-disc list-inside mt-1 space-y-2">
+                                <li><strong>بدون علامت:</strong> تحت نظر گرفتن (<span class="english-term">Watch & Wait</span>). درمان زودهنگام بقا را افزایش نمی‌دهد.</li>
+                                <li><strong>علامت‌دار/پیشرفته:</strong> ایمونوکموتراپی (R-CHOP یا Bendamustine + Rituximab).</li>
+                                <li><strong>درمان نگهدارنده:</strong> ریتوکسیماب (Rituximab) پس از القای بهبودی.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MALT Lymphoma -->
+            <div>
+                <h3 class="text-lg font-bold text-gray-800 mb-2 flex items-center">
+                    <span class="w-2 h-2 bg-yellow-500 rounded-full ml-2"></span>
+                    لنفوم MALT (بافت لنفوئیدی مرتبط با مخاط)
+                </h3>
+                <p class="text-sm text-gray-700 mb-2">
+                    اغلب در معده و مرتبط با عفونت <span class="english-term">Helicobacter pylori</span> است.
+                </p>
+                <div class="bg-yellow-50 p-3 rounded border border-yellow-200 text-sm">
+                    <strong>درمان خط اول:</strong> ریشه‌کنی H. pylori (آنتی‌بیوتیک‌تراپی).
+                    <br>
+                    <span class="text-xs text-yellow-800 opacity-75">اغلب موارد (حتی Low grade) با حذف باکتری بهبود می‌یابند و نیاز به شیمی‌درمانی سیستمیک ندارند.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Aggressive Lymphomas -->
+        <section id="dlbcl" class="card p-6 border-r-4 border-red-500">
+            <h2 class="section-title text-red-800">۴. لنفوم‌های تهاجمی (Aggressive)</h2>
+
+            <!-- DLBCL -->
+            <div class="mb-8">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">لنفوم سلول B بزرگ منتشر (DLBCL)</h3>
+                <div class="text-sm text-gray-600 mb-4 text-justify">
+                    شایع‌ترین نوع لنفوم نان‌هوچکین (۳۰٪ موارد). رشد سریع دارد و ۳۰-۴۰٪ بیماران علائم B یا درگیری خارج گرهی دارند.
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-gray-50 p-3 rounded">
+                        <h4 class="font-bold text-sm mb-2 text-gray-700">انواع مولکولی پرخطر (Poor Prognosis):</h4>
+                        <ul class="list-disc list-inside text-xs space-y-1">
+                            <li><strong>Double Hit:</strong> ترانسلوکاسیون همزمان <span class="english-term">MYC</span> و <span class="english-term">BCL-2</span> (یا BCL-6).</li>
+                            <li><strong>Double Expressor:</strong> بیان بالای پروتئین بدون جابجایی ژنی (خطر کمتر از دابل هیت).</li>
+                        </ul>
+                    </div>
+                    <div class="treatment-box p-3 rounded text-sm">
+                        <strong>درمان استاندارد:</strong>
+                        <p class="mt-1">رژیم <span class="english-term">R-CHOP</span></p>
+                        <p class="text-xs mt-1 text-green-800 opacity-80">(ریتوکسیماب + سیکلوفسفامید + دوکسوروبیسین + وین‌کریستین + پردنیزون).</p>
+                        <p class="mt-2 text-xs border-t border-green-200 pt-1">
+                            <strong>عود:</strong> شیمی‌درمانی نجات‌بخش (Salvage) + پیوند اتولوگ مغز استخوان.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mantle Cell -->
+            <div class="mb-8 border-t border-gray-100 pt-4">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">لنفوم منتل سل (Mantle Cell Lymphoma)</h3>
+                <div class="flex flex-col md:flex-row gap-4">
+                    <div class="flex-1 bg-red-50 p-3 rounded text-sm text-red-900">
+                        <strong>نشانگر ژنتیکی (پاتوگنومونیک):</strong>
+                        <br>
+                        ترانسلوکاسیون <span class="english-term">t(11;14)</span> که منجر به بیان بیش از حد پروتئین <span class="english-term">Cyclin D1</span> می‌شود.
+                    </div>
+                    <div class="flex-1 bg-gray-50 p-3 rounded text-sm">
+                        <strong>ویژگی بالینی خاص:</strong>
+                        <br>
+                        درگیری شایع دستگاه گوارش به صورت پولیپوز لنفوماتوئید. ایمنوفنوتیپ: CD5+ و CD23- (افتراق از CLL).
+                    </div>
+                </div>
+            </div>
+
+            <!-- Burkitt -->
+            <div class="border-t border-gray-100 pt-4">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">لنفوم بورکیت (Burkitt Lymphoma)</h3>
+                <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
+                    <li><strong>رفتار:</strong> بسیار تهاجمی (سرعت تکثیر بسیار بالا). نمای «آسمان پرستاره» (Starry sky) در پاتولوژی.</li>
+                    <li><strong>ژنتیک:</strong> ترانسلوکاسیون <span class="english-term">t(8;14)</span> و فعال‌سازی ژن <span class="english-term">c-myc</span>.</li>
+                    <li><strong>درمان:</strong> نیاز به شیمی‌درمانی فوری و شدید + پروفیلاکسی CNS (تزریق اینتراتکال).</li>
+                    <li class="bg-red-100 text-red-800 p-2 rounded">
+                        <strong>اورژانس انکولوژی:</strong> خطر بالای «سندروم لیز تومور» (Tumor Lysis Syndrome). شروع آلوپورینول/راسبوریکاز و هیدراسیون قبل از درمان الزامی است.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 5: Hodgkin Lymphoma -->
+        <section id="hodgkin" class="card p-6">
+            <h2 class="section-title">۵. لنفوم هوچکین (Hodgkin Lymphoma)</h2>
+            <p class="text-sm text-gray-600 mb-4">
+                مشخصه اصلی: وجود سلول‌های رید-اشتنبرگ (<span class="english-term">Reed-Sternberg</span>) با نمای «چشم جغد» در زمینه سلول‌های التهابی.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <!-- Classical HL -->
+                <div class="border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold text-indigo-700 mb-2">نوع کلاسیک (Classical HL)</h4>
+                    <p class="text-xs text-gray-500 mb-2">شامل انواع: ندولار اسکلروزیس (شایع‌ترین)، سلولاریتی مختلط، غنی از لنفوسیت، تهی از لنفوسیت.</p>
+                    <div class="diagnosis-box p-2 rounded text-sm text-center">
+                        <span class="block font-bold">ایمنوفنوتیپ:</span>
+                        <span class="english-term text-green-600">CD15 +</span>
+                        <span class="english-term text-green-600">CD30 +</span>
+                        <br>
+                        <span class="english-term text-red-500">CD20 -</span>
+                        <span class="english-term text-red-500">CD45 -</span>
+                    </div>
+                </div>
+
+                <!-- NLPHL -->
+                <div class="border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold text-indigo-700 mb-2">نوع ندولار با غلبه لنفوسیت (NLPHL)</h4>
+                    <p class="text-xs text-gray-500 mb-2">نادرتر، سیر آهسته‌تر، سلول‌های پاپ‌کورن (Popcorn cells).</p>
+                    <div class="bg-gray-100 p-2 rounded text-sm text-center border border-gray-300">
+                        <span class="block font-bold">ایمنوفنوتیپ (برعکس کلاسیک):</span>
+                        <span class="english-term text-green-600">CD20 +</span>
+                        <span class="english-term text-green-600">CD45 +</span>
+                        <br>
+                        <span class="english-term text-red-500">CD15 -</span>
+                        <span class="english-term text-red-500">CD30 -</span>
+                    </div>
+                    <p class="text-xs mt-1 text-center text-gray-500">به ریتوکسیماب پاسخ می‌دهد.</p>
+                </div>
+            </div>
+
+            <div class="bg-blue-50 p-4 rounded-lg">
+                <h4 class="font-bold text-blue-800 mb-2">درمان و پیش‌آگهی</h4>
+                <ul class="list-disc list-inside text-sm text-blue-900 space-y-1">
+                    <li><strong>رژیم استاندارد:</strong> <span class="english-term">ABVD</span> (آدریامایسین، بلئومایسین، وین‌بلاستین، داکاربازین).</li>
+                    <li><strong>عوارض دارویی:</strong> بلئومایسین (فیبروز ریه)، آدریامایسین (کاردیومیوپاتی)، وین‌بلاستین (نوروپاتی).</li>
+                    <li><strong>پروگنوز:</strong> عالی (۸۰٪ درمان می‌شوند). عوامل بد: سن > ۴۵، جنس مذکر، مرحله IV، علائم B، توده حجیم مدیاستن، ESR بالا.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 6: CLL -->
+        <section id="cll" class="card p-6">
+            <h2 class="section-title">۶. لوسمی لنفوسیتیک مزمن (CLL)</h2>
+            <div class="grid md:grid-cols-2 gap-6 mt-4">
+                <div>
+                    <h3 class="font-bold text-gray-800 mb-2">تظاهرات و تشخیص</h3>
+                    <ul class="text-sm space-y-2 text-gray-600 list-disc list-inside">
+                        <li><strong>یافته اتفاقی:</strong> لکوسیتوز با ارجحیت لنفوسیت (>۵۰۰۰ لنفوسیت B مونوکلونال).</li>
+                        <li><strong>اسمیر خون:</strong> سلول‌های اسمیر یا <span class="english-term">Smudge cells</span> (سلول‌های شکننده).</li>
+                        <li><strong>فلوسیتومتری (تشخیصی):</strong> هم‌زمانی <span class="english-term">CD19/CD20</span> با <span class="english-term">CD5</span> و <span class="english-term">CD23</span> مثبت.</li>
+                        <li><strong>معاینه:</strong> لنفادنوپاتی، اسپلنومگالی.</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="exam-tip p-4 rounded-lg h-full flex flex-col justify-center">
+                        <h4 class="font-bold mb-2">نکته ۱۰۰٪ امتحانی: درمان CLL</h4>
+                        <p class="text-sm mb-2">
+                            بیماران <strong>بدون علامت</strong> (Stage پایین) نیاز به درمان ندارند و فقط پیگیری می‌شوند.
+                        </p>
+                        <h5 class="font-bold text-xs mt-2">اندیکاسیون‌های شروع درمان:</h5>
+                        <ul class="list-decimal list-inside text-xs space-y-1">
+                            <li>نارسایی مغز استخوان (کم‌خونی یا ترومبوسیتوپنی پیشرونده).</li>
+                            <li>لنفادنوپاتی حجیم (>۱۰cm) یا علامت‌دار.</li>
+                            <li>اسپلنومگالی پیشرونده یا علامت‌دار (>۶cm زیر دنده).</li>
+                            <li>علائم سیستمیک (B Symptoms) شدید.</li>
+                            <li>زمان دو برابر شدن لنفوسیت‌ها < ۶ ماه.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-4 pt-4 border-t border-gray-100 grid md:grid-cols-2 gap-4">
+                <div class="bg-orange-50 p-3 rounded text-sm text-orange-900">
+                    <strong>عوارض ایمونولوژیک:</strong>
+                    <br>
+                    ۱. هیپوگاماگلوبولینمی (عفونت مکرر -> درمان با IVIG).
+                    <br>
+                    ۲. آنمی همولیتیک اتوایمیون (کومبس مثبت) و ITP (درمان با کورتون).
+                </div>
+                <div class="bg-red-50 p-3 rounded text-sm text-red-900">
+                    <strong>سندروم ریشتر (Richter):</strong>
+                    <br>
+                    تبدیل CLL به لنفوم تهاجمی DLBCL (بسیار بدخیم). علائم: رشد سریع توده، تب و کاهش وزن ناگهانی، افزایش LDH.
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Plasma Cell Disorders -->
+        <section id="plasma" class="card p-6 border-r-4 border-purple-500">
+            <h2 class="section-title text-purple-800">۷. دیسکرازی‌های پلاسماسل</h2>
+
+            <!-- Definitions Table -->
+            <div class="overflow-x-auto mb-6">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="bg-purple-100 text-purple-900">
+                            <th>اختلال</th>
+                            <th>M-Protein</th>
+                            <th>پلاسماسل مغز استخوان</th>
+                            <th>علائم (CRAB)</th>
+                            <th>درمان</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-bold">MGUS</td>
+                            <td>< 3 g/dL</td>
+                            <td>< 10%</td>
+                            <td class="text-green-600 font-bold">ندارد</td>
+                            <td>فقط پیگیری (خطر تبدیل ۱٪ در سال)</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold">Smoldering Myeloma</td>
+                            <td>≥ 3 g/dL</td>
+                            <td>10% - 60%</td>
+                            <td class="text-green-600 font-bold">ندارد</td>
+                            <td>پیگیری دقیق (ریسک بالا)</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold text-red-600">Multiple Myeloma</td>
+                            <td>هر مقدار</td>
+                            <td>≥ 10% (یا پلاسماسیتوم)</td>
+                            <td class="text-red-600 font-bold">دارد (+)</td>
+                            <td>درمان سیستمیک</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Multiple Myeloma Detail -->
+            <div class="mb-6">
+                <h3 class="font-bold text-gray-800 mb-2">میلوم مولتیپل (Multiple Myeloma)</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h4 class="font-bold text-purple-700 mb-1">علائم بالینی (CRAB):</h4>
+                        <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                            <li><strong>C</strong>alcium (هیپرکلسمی): ضعف، تهوع، یبوست.</li>
+                            <li><strong>R</strong>enal (نارسایی کلیه): به دلیل رسوب زنجیره سبک یا کلسیم.</li>
+                            <li><strong>A</strong>nemia (نرموستیک نرموکروم): خستگی.</li>
+                            <li><strong>B</strong>one (ضایعات لیتیک): درد استخوان (کمردرد)، شکستگی پاتولوژیک. نمای <span class="english-term">Punched-out</span> در جمجمه.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h4 class="font-bold text-purple-700 mb-1">نکات تشخیصی و درمان:</h4>
+                        <ul class="text-sm text-gray-700 space-y-2">
+                            <li><strong>تشخیص:</strong> الکتروفورز پروتئین سرم (SPEP) و ادرار (UPEP/Bence-Jones)، بیوپسی مغز استخوان.</li>
+                            <li><strong>اسکن استخوان (Bone Scan) مفید نیست</strong> (چون فعالیت استئوبلاستی کم است). روش انتخابی: Whole body low-dose CT یا MRI.</li>
+                            <li><strong>درمان:</strong> Bortezomib + Lenalidomide + Dexamethasone. پیوند اتولوگ در افراد واجد شرایط.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Waldenstrom & Others -->
+            <div class="grid md:grid-cols-2 gap-6 pt-4 border-t border-gray-200">
+                <div>
+                    <h3 class="font-bold text-gray-800 mb-2">ماکروگلوبولینمی والدنشتروم</h3>
+                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                        <li>تکثیر لنفوپلاسماسیت‌ها با تولید <strong>IgM</strong>.</li>
+                        <li><strong>علائم:</strong> سندروم هیپرویسکوزیته (سردرد، تاری دید)، هپاتواسپلنومگالی، لنفادنوپاتی.</li>
+                        <li><strong>تفاوت با میلوم:</strong> ضایعات لیتیک استخوانی و هیپرکلسمی نادر است.</li>
+                        <li><strong>ژنتیک:</strong> موتاسیون <span class="english-term">MYD88</span>.</li>
+                        <li><strong>درمان:</strong> پلاسمافرز (برای ویسکوزیته)، ریتوکسیماب.</li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <div class="bg-gray-100 p-3 rounded">
+                        <h4 class="font-bold text-xs text-gray-700">آمیلوئیدوز اولیه (AL)</h4>
+                        <p class="text-xs text-gray-600 mt-1">
+                            رسوب زنجیره سبک. علائم: ماکروگلوسی (زبان بزرگ)، نارسایی قلبی (Restrictive)، سندروم نفروتیک. تشخیص: رنگ‌آمیزی قرمز کنگو (بیرفرنژانس سبز سیبی).
+                        </p>
+                    </div>
+                    <div class="bg-gray-100 p-3 rounded">
+                        <h4 class="font-bold text-xs text-gray-700">سندروم POEMS</h4>
+                        <p class="text-xs text-gray-600 mt-1">
+                            <span class="english-term">P</span>olyneuropathy, <span class="english-term">O</span>rganomegaly, <span class="english-term">E</span>ndocrinopathy, <span class="english-term">M</span>-protein, <span class="english-term">S</span>kin changes.
+                            همراه با ضایعات استخوانی اسکلروتیک (نه لیتیک).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center text-gray-400 text-xs py-8 bg-gray-50 border-t border-gray-200 mt-8">
+        تهیه شده توسط هادی ابراهیمی
+    </footer>
+
+    <script>
+        // Smooth scroll styling logic is handled by CSS, straightforward anchor links work.
+    </script>
+</body>
+</html>
